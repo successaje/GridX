@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  
-  @apply text-white h-[100vh] leading-normal bg-background text-foreground;
+  @apply text-white h-[100vh] min-w-full bg-background text-foreground;
 }
 
 /* @layer base {

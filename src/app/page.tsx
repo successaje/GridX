@@ -8,19 +8,16 @@ import ColourfulText from "@/components/ui/colourful-text";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-items-center min-h-screen  pb-20 gap-16 sm:p-20">
-      {/* <TracingBeam className="">  */}
-      <div className="flex justify-between">
-        <h1 className="text-7xl font-bold text-center text-black relative z-2 font-sans">
+    <div className="flex flex-col h-screen pb-20 space-y-6 px-[2%]">
+      <div className="flex justify-between items-center mt-5">
+        <div className="text-3xl font-bold z-2 font-sans">
           <ColourfulText text="GridX" />
-        </h1>
+        </div>
         <Navbar />
       </div>
-
       <Intro />
       <HowItWorks />
       <Map />
-      {/* </TracingBeam> */}
     </div>
   );
 }
