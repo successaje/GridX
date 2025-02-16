@@ -7,9 +7,9 @@ export default function WorldMapDemo() {
     <div className=" py-40 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Remote{" "}
+          Connect to a{" "}
           <span className="text-neutral-400">
-            {"Connectivity".split("").map((word, idx) => (
+            {"Grid".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
@@ -23,9 +23,8 @@ export default function WorldMapDemo() {
           </span>
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-          Break free from traditional boundaries. Work from anywhere, at the
-          comfort of your own studio apartment. Perfect for Nomads and
-          Travellers.
+          "GridX: Powering a decentralized future with blockchain-based
+          peer-to-peer energy trading. ⚡🔗"
         </p>
       </div>
       <WorldMap

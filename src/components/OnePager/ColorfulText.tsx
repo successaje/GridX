@@ -13,8 +13,10 @@ export default function ColourfulTextDemo() {
         animate={{ opacity: 0.5 }}
         transition={{ duration: 1 }}
       />
-      <h1 className="text-2xl md:text-5xl lg:text-7xl font-bold text-center text-white relative z-2 font-sans">
-        The best <ColourfulText text="components" /> <br /> you will ever find
+      <h1 className="text-2xl md:text-3xl lg:text-7xl font-bold text-center text-white relative z-2 font-sans">
+        Powering a decentralized future with blockchain-based{" "}
+        <ColourfulText text=" peer-to-peer" /> <br />
+        energy trading.
       </h1>
     </div>
   );
