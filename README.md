@@ -1,5 +1,5 @@
 # GridX ⚡  
-**A Decentralized Peer-to-Peer Energy Trading Platform**  
+**A Decentralized Peer-to-Peer Energy Trading Platform built on Stellar**  
 
 ## 🚀 Overview  
 GridX is a blockchain-powered platform that enables **peer-to-peer (P2P) energy trading**, allowing users to **buy and sell electricity** directly without intermediaries. By leveraging **smart contracts**, GridX ensures **transparent, secure, and automated transactions** in the energy market.  
